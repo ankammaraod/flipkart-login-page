@@ -1,0 +1,105 @@
+body {
+	width: 650px;
+	margin: 0 auto;
+	font-family: sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login-page{
+    border:#808080 solid 0.01em;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.side-bar{
+    width: 195px;
+    padding: 2em;
+    background-color:#2774f0 ;
+}
+
+.side-bar >h1{
+    font-size: 2em;
+    color: white;
+    padding: 1em 0;
+}
+
+.side-bar > p{
+    line-height: 1.4em;
+    color: #dadadb;
+}
+
+.main-panel {
+    padding: 2.5em;
+    color: #878787;
+}
+
+.user-name,
+.password-panel{
+    padding-bottom: 0.70em;
+    border-bottom:#e0e0e0 solid 1px;
+}
+
+.password-panel{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a{
+   text-decoration: none;
+   color:#2774f0;
+}
+
+.terms-conditions{
+    font-size: 0.80em;
+} 
+
+.login-button,
+.otp-button{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    margin: 15px 0;
+    border-radius: 0.1em;
+}
+
+.login-button{
+    background-color: #fb641b ;
+    box-shadow:  0.01em 0.01em black;
+}
+
+.login-button >a{
+    color: #ffffff;
+}
+
+.alternative{
+    text-align: center;
+    margin: 15px;
+}
+
+.otp-button{
+    border: hsl(0deg 0% 94% / 74%) solid 0.01em;
+    box-shadow:  0.01em 0.01em black;
+}
+
+.account-creation{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.side-bar img{
+    width: 150px;
+    position: relative;
+    top: 150px;
+}
